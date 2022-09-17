@@ -10,6 +10,8 @@ nav {
     justify-content: space-between;
     padding: 10px 200px;
     border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
 }
 nav ul{
     display: flex;
@@ -78,6 +80,7 @@ header{
 main{
     background-color: #2D236A;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 #main-section{
     width: 1100px;
@@ -131,4 +134,88 @@ main{
     justify-content: space-between;
     margin-top: 10px;
     color: #fff;
+}
+/* previous & next button code start here */
+#previous-next-parent{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+#previous-next-parent h3 a{
+    background-color: #04AA6D;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+#previous-next-parent h3 a:hover{
+    background-color: #097c52;
+}
+#previous-next-parent a{
+    text-decoration: none;
+    color: #fff;
+}
+#previous-next-parent div a{
+    background-color: antiquewhite;
+    padding: 8px;
+    color: black;
+    margin: 0px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+#previous-next-parent div a:first-child{
+    background-color: #04AA6D;
+    color: #fff;
+}
+/* footer code start here  */
+footer{
+    background-color: #5F1E69;
+    color: #FFF;
+}
+
+#footer-container{
+    width: 900px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+#footer-firstitem h3{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+#footer-firstitem:first-child p{
+    margin-bottom: 50px;
+}
+#footer-seconditem h3{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+#footer-seconditem a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer-seconditem p{
+    margin-bottom: 10px;
+}
+#footer-thirditem div{
+    font-size: 25px;
+    padding: 30px 0;
+    margin-top: 20px;
+}
+#footer-thirditem a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    background-color: #1a1244;
+    padding: 10px;
+    border-radius: 10px;
+}
+#footer-thirditem p{
+    margin-bottom: 10px;
+}
+#footer-thirditem p:nth-child(4){
+    margin-top: 70px;
 }
