@@ -160,7 +160,7 @@
         content: "\f00d";
     }
     #bars i{
-        position: sticky;
+        /* position: sticky; */
         color: red;
         font-size: 25px;
         margin-left: 10px;
